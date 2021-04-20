@@ -1,0 +1,63 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+.container{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+  
+   
+}
+
+.arrowLeftBox{
+   width: 15%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.arrowRightBox{
+   width: 15%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.arrows{
+   width: 70%;
+   height: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.carousel{
+   width: 70%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.freccia{
+   font-size: 400%;
+}
+
+.carouselImage{
+   width: 1345px;
+   height: 700px;
+   
+}
+
+img.active{
+   display: block;
+}
+
+img{
+   display: none;
+}
+
