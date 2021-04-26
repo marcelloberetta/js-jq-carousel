@@ -30,7 +30,7 @@
   
 }
 
-.arrows{
+.prev, .next{
    width: 70%;
    height: 20%;
    display: flex;
@@ -63,3 +63,20 @@ img{
    display: none;
 }
 
+
+.nav {
+   position: absolute;
+   left: 50%;
+   bottom: 20px;
+   transform: translateX(-50%);
+   padding: 20px;
+   border-radius: 999px;
+   background: rgba(0,0,0,.7);
+   color: white;
+}
+.nav > i {
+   margin: 0 20px;
+}
+.nav > i.active {
+   color: blue;
+}
